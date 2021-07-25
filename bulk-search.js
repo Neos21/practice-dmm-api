@@ -14,8 +14,8 @@ const dmmApiId       = 'CHANGE-THIS';  // DMM API ID
 const dmmAffiliateId = 'CHANGE-THIS';  // DMM アフィリエイト ID
 const isDmmCom       = true;           // 検索対象サイトを Dmm.com (true) とするか FANZA (false) とするか
 
-const inputFilePath  = './bulk-list.txt';  // 検索キーワードを記載した複数行テキストのファイルパス
-const outputFileName = 'bulk-search';      // 結果ファイル名 (およびログファイルの接頭辞)
+const inputFilePath  = './list.txt';  // 検索キーワードを記載した複数行テキストのファイルパス
+const outputFileName = 'search';      // 結果ファイル名 (およびログファイルの接頭辞)
 
 
 // 処理
