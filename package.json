@@ -1,0 +1,29 @@
+{
+  "name": "practice-dmm-api",
+  "description": "Practice DMM API",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./index.js",
+    "list": "node ./bulk-list.js",
+    "search": "node ./bulk-search.js",
+    "rename": "node ./bulk-rename.js"
+  },
+  "author": "Neo <neos21@gmail.com> (https://neos21.net/)",
+  "license": "MIT",
+  "homepage": "https://github.com/Neos21/practice-dmm-api#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Neos21/practice-dmm-api.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Neos21/practice-dmm-api/issues"
+  },
+  "funding": {
+    "type": "github",
+    "url": "https://github.com/sponsors/Neos21"
+  },
+  "dependencies": {
+    "axios": "0.21.1"
+  }
+}
