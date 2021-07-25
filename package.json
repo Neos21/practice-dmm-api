@@ -4,8 +4,8 @@
   "private": true,
   "main": "index.js",
   "scripts": {
-    "start": "node ./index.js",
-    "list": "node ./bulk-list.js",
+    "start" : "node ./index.js",
+    "list"  : "node ./bulk-list.js",
     "search": "node ./bulk-search.js",
     "rename": "node ./bulk-rename.js"
   },
